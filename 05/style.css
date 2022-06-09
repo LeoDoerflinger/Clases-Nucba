@@ -1,0 +1,57 @@
+/*CON EL .ALGO SE HACE REFERENCIA A LAS CLASS, Y CON #ALGO SE HACE REFERENCIA A LOS ID*/
+* {
+    margin-right: 0px;
+    margin-left: 2.5px;
+    background-color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+}
+
+.titulo {
+    font-size: 50px;
+    text-decoration: underline cornflowerblue;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subTitulo {
+    text-align: center;
+    font-size: 25px;
+    background-color: grey;
+    font-family: 'Roboto', sans-serif;
+}
+
+#datosPers{
+    margin-top: 60px;
+}
+
+.subTitulo:hover {
+    /* LOS : HACEN REFERENCIA A UNA SUBCLASE */
+    color: white;
+}
+
+.redes {
+    color: black;
+    font-style: oblique;
+}
+
+.redes:hover {
+    color: whitesmoke;
+}
+
+.perfil img{
+    width: 100px;
+    float: left;
+}
+
+#nombre {
+    margin-left: 110px;
+    padding-top: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 40px;
+}
