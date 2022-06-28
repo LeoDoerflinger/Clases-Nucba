@@ -42,25 +42,32 @@ li {
 
 }
 
+#hero{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+    margin: 0% 10%;
+}
 
 #producto {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 400px;
     margin-top: 50px;
 }
 
-.celu {
+#celu {
     float: right;
     width: 300px;
-    margin-right: 300px;
-    margin-top: 30px;
 }
-
 
 #buscar {
     width: 225px;
+    text-align: center;
+}
+
+a{
+    font-weight: bold;
 }
 
 a:hover {
@@ -77,13 +84,36 @@ footer {
 
 #footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     color: white;
-    margin-left: 200px;
 }
 
 p {
     margin-top: 50px;
     display: inline;
-    margin-left: 50px;
+}
+
+#buttons{
+    margin-top: 30px;
+    margin-left: 15%;
+}
+button{
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    font-size: larger;
+    background-color: rgb(243, 223, 42);
+    border: 5px solid white;
+    border-radius: 20px
+}
+
+button:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+#disclamer {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
 }
