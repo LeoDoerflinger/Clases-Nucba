@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin: 2rem;
+    text-align: center;
+    align-items: center;
+}
+
+div {
+    margin: 1rem;
+}
+
+/*HOVER*/
+
+.container-hover .hover {
+    padding: 100px;
+    background-color: salmon;
+}
+
+.hover:hover {
+    background-color: blueviolet;
+    transition: 1s;
+}
+
+/*LINKS*/
+
+.container-link {
+    padding: 100px;
+    background-color: aquamarine;
+}
+
+.link:link {
+    color: red;
+    font-size: 30px;
+}
+
+.link:visited {
+    color: green;
+}
+
+.link:active {
+    background-color: blueviolet;
+    color: white;
+}
+
+/*FOCUS*/
+
+.container-focus {
+    padding: 100px;
+    background-color: black;
+    color: white;
+}
+
+.input-grey:focus {
+    background-color: grey;
+    outline: none;
+    border: grey;
+    color: wheat;
+}
+
+.input-wheat:focus {
+    background-color: wheat;
+    outline: none;
+    border: wheat;
+    color: grey;
+}
+
+/*FIRST*/
+
+.container-first {
+    padding: 100px;
+    background-color: yellow;
+}
+
+.first-children p:first-child {
+    color: white;
+    background-color: black;
+}
+
+.first-children a:first-of-type {
+    background-color: violet;
+    color: black;
+    font-size: 25px;
+}
+
+/*LAST*/
+
+.container-last {
+    padding: 100px;
+    background-color: coral;
+}
+
+.last-children p:last-child {
+    background-color: chartreuse;
+    color: darkmagenta;
+}
+
+.last-children a:last-of-type {
+    background-color: chartreuse;
+    color: darkmagenta;
+}
+
+/*NTH*/
+
+.container-nth {
+    padding: 100px;
+    background-color: midnightblue;
+    color: white;
+}
+
+.nth p:nth-child(odd) {
+    background-color: cadetblue;
+}
+
+.nth p:nth-child(even) {
+    background-color: darkgoldenrod;
+}
